@@ -14,11 +14,11 @@ import { ConfigModule } from '@nestjs/config';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'us-cdbr-east-06.cleardb.net',
       port: 3306,
-      username: 'testuser',
-      password: 'Testuser12345!',
-      database: 'nestjs_test',
+      username: 'b3258cba791ec3',
+      password: 'bd4e5751',
+      database: 'heroku_5f6a41592c018c0',
       entities: [Form],
 
       // synchronize: true,
